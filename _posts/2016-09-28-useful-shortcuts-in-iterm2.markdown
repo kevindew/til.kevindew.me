@@ -17,6 +17,7 @@ I'm a relatively new convertee to iTerm2 so I'm still getting to grips with the 
 - **⌘[** and **⌘]** - Navigate panes
 
 When in search mode (**⌘f**):
+
 - **↩** - Copy current item
 - **⇥** - Expand selection left
 - **⇧⇥** - Expand selection right
