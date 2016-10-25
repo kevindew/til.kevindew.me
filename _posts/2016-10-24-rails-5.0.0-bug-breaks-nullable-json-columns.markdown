@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Rails 5.0.0 bug breaks nullable JSON columns
+date:   2016-10-24 21:00:00 +0100
+source: https://github.com/rails/rails/pull/25670
+categories: rails
+---
+Getting a string value of `"null"` in your JSON columns with Rails? That is due
+to a bug in Rails 5.0.0 that is incorrectly serialising a `nil` value of the
+field into JSON.
+
+Good news is that it's [already fixed][pr] and should be released with 5.0.1.
+Until then you can [monkey patch][monkey-patch] a fix in.
+
+[pr]: https://github.com/rails/rails/pull/25670
+[monkey-patch]: https://github.com/alphagov/publishing-api/pull/580/commits/4720df2a7330b5507b982b24eed70251edd5e511
