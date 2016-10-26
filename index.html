@@ -15,13 +15,13 @@ layout: default
           {{ post.content }}
         </article>
 
-        <p>
+        <footer class="post-footer">
           <a href="{{ post.url | prepend: site.baseurl }}">Permalink</a>
           {% if post.source %}
             |
             <a href="{{ post.source }}">Source</a>
           {% endif %}
-        </p>
+        </footer>
       </li>
     {% endfor %}
   </ul>

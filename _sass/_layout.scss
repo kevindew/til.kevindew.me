@@ -232,6 +232,16 @@
             font-size: 18px;
         }
     }
+
+    a {
+      font-weight: bold;
+    }
+}
+
+.post-footer {
+  a {
+    font-weight: bold;
+  }
 }
 
 .pagination {
@@ -246,7 +256,7 @@
         position: absolute;
         top: 0;
         right: 0;
-    }    
+    }
 }
 
 form {
@@ -255,13 +265,13 @@ form {
         font-size: $base-font-size;
         line-height: $base-line-height;
     }
-    label { 
+    label {
         display: block;
     }
     .wide-input {
         max-width: 500px;
         width: 100%;
         margin-bottom: 1em;
-    }    
+    }
 }
 
